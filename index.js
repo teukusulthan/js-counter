@@ -1,6 +1,10 @@
 const increase = document.getElementById("increase");
-const decrease = document.getElementById("Decrease");
-const reset = document.getElementById("Reset");
-const number = document.getElementById("Number");
+const decrease = document.getElementById("decrease");
+const reset = document.getElementById("reset");
+const countP = document.getElementById("count");
+let count = 0;
 
-incerease.onclick = function () {};
+increase.onclick = function () {
+  count++;
+  countP.textContent = count;
+};

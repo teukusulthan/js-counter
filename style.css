@@ -70,26 +70,26 @@ main {
 }
 
 /* Increase button: green */
-button.increase {
+button#increase {
   background-color: #3bb273;
 }
-button.increase:hover {
+button#increase:hover {
   background-color: #329963;
 }
 
 /* Decrease button: orange */
-button.decrease {
+button#decrease {
   background-color: #f4a261;
 }
-button.decrease:hover {
+button#decrease:hover {
   background-color: #dd8844;
 }
 
 /* Reset button: red */
-button.reset {
+button#reset {
   background-color: #e76f51;
 }
-button.reset:hover {
+button#reset:hover {
   background-color: #cc5c44;
 }
 
