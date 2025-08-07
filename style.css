@@ -62,6 +62,7 @@ main {
 
 /* === Button Base Style === */
 .btnContainer button {
+  button-action: manipulation;
   flex: 1;
   padding: 12px 10px;
   border: none;
