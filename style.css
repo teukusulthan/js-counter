@@ -1,0 +1,109 @@
+/* Base reset and font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #121417;
+  padding: 20px;
+}
+
+/* Counter container */
+.counterContainer {
+  background-color: #1e1f22;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Title */
+.counterContainer h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #e2e2e2;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Number display */
+.counterContainer p {
+  font-size: 96px;
+  font-weight: 700;
+  color: #4a6fa5;
+  margin: 20px 0 40px;
+  text-align: center;
+}
+
+/* Button container */
+.btnContainer {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Shared button styles */
+.btnContainer button {
+  flex: 1 1 30%;
+  min-width: 100px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Increase button: green */
+button.increase {
+  background-color: #3bb273;
+}
+button.increase:hover {
+  background-color: #329963;
+}
+
+/* Decrease button: orange */
+button.decrease {
+  background-color: #f4a261;
+}
+button.decrease:hover {
+  background-color: #dd8844;
+}
+
+/* Reset button: red */
+button.reset {
+  background-color: #e76f51;
+}
+button.reset:hover {
+  background-color: #cc5c44;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+  .counterContainer h1 {
+    font-size: 28px;
+  }
+
+  .counterContainer p {
+    font-size: 64px;
+  }
+
+  .btnContainer button {
+    flex: 1 1 100%;
+  }
+}
