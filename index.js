@@ -8,3 +8,8 @@ increase.onclick = function () {
   count++;
   countP.textContent = count;
 };
+
+decrease.onclick = function () {
+  count--;
+  countP.textContent = count;
+};
