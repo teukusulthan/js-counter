@@ -13,3 +13,8 @@ decrease.onclick = function () {
   count--;
   countP.textContent = count;
 };
+
+reset.onclick = function () {
+  count = 0;
+  countP.textContent = count;
+};
