@@ -15,7 +15,6 @@ increase.onclick = function () {
   clickSound.play();
   count++;
   countP.textContent = count;
-  pla;
 };
 
 decrease.onclick = function () {
